@@ -11,7 +11,7 @@ const Framers1 = () => {
    <>
  <div className='flex justify-center' >
 
-<img className='w-[515px] max-h-[750px] rounded-[44px] mt-20'data-aos="fade-up" src="	https://framerusercontent.com/images/cKlwxnwwJkxPfFnzsaHiqMqEdq4.png" alt="" />
+ <img className=' max-w-full max-h-screen rounded-[44px] mt-20'data-aos="fade-up" src="images/Qamar2.jpeg" alt="" />
 
 </div>
    </>

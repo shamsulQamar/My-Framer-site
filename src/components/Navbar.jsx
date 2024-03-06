@@ -7,8 +7,8 @@ const Navbar = () => {
     <div className='flex justify-between mt-6 ms-16'>
   <ul className="flex">
     <li className="mr-20 font-medium text-xl ">SHAMS UL QAMAR</li>
-    <li className="mr-10 font-bold mt-1 border-b-2">ABOUT</li>
-    <li className='font-bold mt-1 '>WORK</li>
+    <li className="mr-10 font-bold mt-1 ">ABOUT</li>
+    <li className='font-bold mt-1 border-b-2  '>WORK</li>
   </ul>
 </div>
 

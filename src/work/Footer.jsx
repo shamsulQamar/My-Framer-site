@@ -1,16 +1,18 @@
 import React from 'react'
-
+import { FaTwitter, FaLinkedin, FaGithub, FaFacebook } from "react-icons/fa";
 export default function Footer() {
+    let year = new Date().getFullYear();
     return (
-        < div className=' mt-9'>
+        <>
+        < div>
             <div className='flex justify-between text-white bg-black  px-28'>
-                <div className=' pt-24'>
-                    <p className="font-bold text-1xl  ">SHAMS UL QAMAR</p>
-                    <p className='font-medium mt-4'>Senior UX Designer, currently crafting <br /> experiences at Crosby.</p>
-                    <img className=' w-[350px] mt-10' src="https://framerusercontent.com/images/mUyphN6nQxd04jvFpDYvMIpz8Ig.png" alt="" />
+                <div className=' pt-12'>
+                    <p className="font-bold text-2xl  ">SHAMS UL QAMAR</p>
+                    <p className='font-bold mt-4'>Senior Passionate Devloper Code with Experiences and Clarity </p>
+                    <img className=' w-[350px] my-10 rounded-3xl' src="https://img.freepik.com/free-vector/creative-gradient-code-logo_23-2148820572.jpg?size=338&ext=jpg&ga=GA1.1.1395880969.1709510400&semt=ais" alt="" />
                 </div>
 
-                <div className=' ms-48 pt-24'> 
+                <div className=' ms-48 pt-24'>
                     <h1 className=' font-bold text-3xl '> Think I'd be a good fit for your team or project?  <br />Let's connect.</h1>
 
                     <button className=' border-solid  bg-white rounded-full p-3 mt-8 
@@ -28,11 +30,16 @@ export default function Footer() {
                         <div className=' ms-20'>
                             <h1 className='font-bold text-xl mt-14'>SOCIALS</h1>
 
-                            <div className='font-bold mt-6'>
-                                <button>Linkedin</button>
-                                <button className=' ms-8'>Twitter</button> <br /> 
-                                <button>Facebook</button>
-                                <button className=' ms-8'>Istagram</button>
+                            <div className=' flex font-bold mt-6'>
+                                <div>
+                                    <button className='flex'> <FaLinkedin className=' m-1' />  Linkedin</button>
+                                    <button className=' flex'> <FaGithub className=' m-1' /> GitHub</button>
+                                </div>
+                                <div className=' ms-4'>
+                                    <button className=' flex'> <FaTwitter className=' m-1' />Twittwer</button>
+                                    <button className='flex'> <FaFacebook className=' m-1' />
+                                        FaceBook</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -41,11 +48,12 @@ export default function Footer() {
 
             </div>
 
-            <div className=' py-4 text-white flex justify-between bg-slate-950'>
-                <p className=' ms-32'>DESIGNED & BUILT FROM THE DESK OF  <span className=' font-medium'>DEVANTA EBISON</span></p>
-                <p className=' me-32'>OLIO PORTFOLIO TEMPLATE (MIDNIGHT) - 2024©</p>
+            <div className=' py-5 text-white flex justify-between bg-slate-950'>
+                <p className=' ms-32'>DESIGNED & BUILT FROM THE DESK OF  <span className=' font-medium'>SHAMS UL QAMAR</span></p>
+                <p className=' me-32'>OLIO PORTFOLIO TEMPLATE (MIDNIGHT) - {year}©</p>
             </div>
 
         </div>
+        </>
     )
 }
