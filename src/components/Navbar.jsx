@@ -11,10 +11,15 @@ const Navbar = () => {
             <li className="mr-20 font-medium text-xl ">SHAMS UL QAMAR</li>
 
             <li className="mr-10 font-bold mt-1 ">
-              <NavLink className='(Active) text-cyan-500' to='about'>ABOUT</NavLink>
+              <NavLink to='about' className={({ isActive }) => {
+                return isActive ? "text-indigo-400 border-b-2 border-indigo-400" :
+                  "text-white";
+              }} >ABOUT</NavLink>
             </li>
             <li className='font-bold mt-1 border-b-1  '>
-              <NavLink className='Active' to='work'>WORK</NavLink>
+              <NavLink to='work' className={({ isActive }) => {
+                return isActive ? "text-indigo-400 border-b-2 border-indigo-400 " : "text-white";
+              }}>WORK</NavLink>
             </li>
           </ul>
         </div>
