@@ -2,8 +2,8 @@ import React from 'react'
 
 function Header() {
   return (
-    <>
-      <div className='text-center mt-32 text-white'>
+    <div className=''>
+      <div className='text-center mt-16 text-white'>
         <p className='font-bold text-9xl'>SENIOR</p>
         <p className='font-bold text-9xl'>EXPERIENCE  </p>
         <p className='font-bold text-9xl'> DEVLOPER©</p>
@@ -18,7 +18,7 @@ function Header() {
           <p className='font-medium text-xl'>(2021-present)</p>
         </div>
       </div>
-    </>
+    </div>
 
 
 

@@ -1,29 +1,20 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Header from './Header'
-import Sentence1 from './Sentence1'
-import Sentence3 from './Sentence3'
-import Framers1 from './Framers1'
-import Framer2 from './Framer2'
-import Sentence from './Sentence'
-import Sentence4 from './Sentence4'
-import Footer from './Footer'
+import Header1 from '../components/about/Header1'
+import Sentex1 from '../components/about/Sentex1'
+import Sentex2 from '../components/about/Sentex2'
+import Sentex3 from '../components/about/Sentex3'
+import Sentex4 from '../components/about/Sentex4'
 
-function Work() {
+function About() {
   return (
     <>
-    < Navbar/>
-    < Header/>
-    <Framers1/>
-    <Sentence/>
-    <Framer2/>
-    <Sentence1/>
-    <Sentence3/> 
-    <Sentence4/> 
-    <Footer/>
-    
+      <Header1 />
+      <Sentex1 />
+      <Sentex2 />
+      <Sentex3 />
+      <Sentex4 />
     </>
   )
 }
 
-export default Work
+export default About

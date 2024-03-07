@@ -6,9 +6,9 @@ function Sentence1() {
                 <div className='p-20 text-white'>
                 <h1 className='font-bold text-6xl mt-24'> My tried-and-true <br /> design process</h1>
 
-                <div className=' flex justify-between'>
+                <div className=' flex justify-between flex-wrap p-5 flex-col md:flex-row  items-center'>
 
-                    <div className='mt-28'>
+                    <div className='mt-28 '>
 
                         <div>
                             <span className=' font-medium text-lg' >(01)</span>

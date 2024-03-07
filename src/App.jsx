@@ -1,17 +1,19 @@
 
 import React from 'react'
-import Navbar from './components/Navbar'
-import Footer from './work/Footer'
-import About from './components/about/About'
-import Work from './work/Work'
+import Routers from './Routers'
+// import Navbar from './components/Navbar'
+// import Footer from './work/Footer'
+// import About from './components/about/About'
+// import Work from './work/Work'
 
 const App = () => {
   return (
     <>
-      <Work />
+    <Routers/>
+      {/* <Work />
       < Navbar/>
       <About/>
-      <Footer/>
+      <Footer/> */}
     </>
 
   )

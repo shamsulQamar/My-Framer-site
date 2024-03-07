@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Sentence4() {
     return (
         <>
-        <div className=' flex justify-end'>
+        <div className=' flex justify-end  flex flex-wrap p-5 flex-col md:flex-row  items-center'>
 
             <div className=' text-white p-20'>
 
@@ -44,9 +45,9 @@ function Sentence4() {
 
                 <div className=' pt-10 '>
                     <button className=' min-w-40 border-solid  bg-white rounded-full p-3 
-                    font-bold text-xl text-black'> VIEW WORK </button>
-                    <button className= ' min-w-48 ms-6 border-solid border-2 border-white rounded-full p-2 font-bold text-xl text-white'>
-                         VIEW RESUME </button>
+                    font-bold text-xl text-black'> 
+                    <Link to='work'> VIEW WORK </Link>
+                     </button>
                 </div>
 
             </div>
